@@ -2,7 +2,9 @@
 
 import React from 'react';
 import Profile from './Profile';
-import Counter from './Counter'; // Import the Counter component
+import Counter from './Counter';
+import TextInputLogger from './TextInputLogger';
+import Die from './Die'; // Import the Die component
 
 const App = () => {
   return (
@@ -25,11 +27,18 @@ const App = () => {
         job="Designer" 
         birthdate="1995-05-15" 
       />
+
+      {/* Render the TextInputLogger component */}
+      <TextInputLogger />
+
+      {/* Render the Die component */}
+      <Die />
     </div>
   );
 };
 
 export default App;
+
 
 
 
