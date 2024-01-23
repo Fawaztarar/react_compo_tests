@@ -1,0 +1,35 @@
+/* Profile.css */
+
+#profile {
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  #name {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  #job, #birthdate {
+    margin-top: 10px;
+    color: #777;
+  }
+  
+  /* App.css */
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  /* Apply additional styling as needed */
+  
