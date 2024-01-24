@@ -4,6 +4,7 @@ import Counter from './Counter';
 import TextInputLogger from './TextInputLogger';
 import Die from './Die'; // Import the Die component
 import Form from './Form'; // Import the Form component
+import Joke from './components/Joke.jsx'; // Import the Joke component
 
 const App = () => {
   return (
@@ -15,6 +16,9 @@ const App = () => {
 
       {/* Render the Form component */}
       <Form />
+
+      {/* Render the Joke component */}
+      <Joke />
 
       {/* Render the Profile component with props */}
       <Profile 
