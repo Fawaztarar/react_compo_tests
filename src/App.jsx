@@ -1,10 +1,9 @@
-// App.jsx
-
 import React from 'react';
 import Profile from './Profile';
 import Counter from './Counter';
 import TextInputLogger from './TextInputLogger';
 import Die from './Die'; // Import the Die component
+import Form from './Form'; // Import the Form component
 
 const App = () => {
   return (
@@ -13,6 +12,9 @@ const App = () => {
 
       {/* Render the Counter component */}
       <Counter />
+
+      {/* Render the Form component */}
+      <Form />
 
       {/* Render the Profile component with props */}
       <Profile 
@@ -33,12 +35,10 @@ const App = () => {
 
       {/* Render the Die component */}
       <Die />
+
+      
     </div>
   );
 };
 
 export default App;
-
-
-
-

@@ -1,5 +1,5 @@
 // Counter.jsx
-// Counter.jsx
+
 
 import React, { useState } from 'react';
 
