@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
-import Counter from './Counter';
+import Counter from '../src/components/Counter';
 
 describe('Counter Component', () => {
   it('renders counter value', () => {

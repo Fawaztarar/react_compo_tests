@@ -3,7 +3,7 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
-import Profile from "./Profile";
+import Profile from "../src/Profile";
 
 test("renders with the correct name", () => {
   // Setup - rendering the component on the page with props

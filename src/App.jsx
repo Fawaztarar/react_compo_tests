@@ -1,9 +1,9 @@
 import React from 'react';
 import Profile from './Profile';
-import Counter from './Counter';
+import Counter from './components/Counter.jsx';
 import TextInputLogger from './TextInputLogger';
-import Die from './Die'; // Import the Die component
-import Form from './Form'; // Import the Form component
+import Die from './components/Die.jsx'; // Import the Die component
+import Form from './components/Form.jsx'; // Import the Form component
 import Joke from './components/Joke.jsx'; // Import the Joke component
 
 const App = () => {
